@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>জাতীয় পরিচয়পত্র অনুবিভাগ - National ID Wing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="top-bar-left">
+                        <span class="gov-text">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</span>
+                        <div class="contact-info">
+                            <span>হটলাইন: ১৬২৬৩</span>
+                            <span>•</span>
+                            <span>ইমেইল: info@nidw.gov.bd</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-right">
+                        <button class="top-btn">
+                            <i class="fas fa-bell"></i>
+                            নোটিশ
+                        </button>
+                        <button class="top-btn">
+                            <i class="fas fa-globe"></i>
+                            English
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="main-header">
+            <div class="container">
+                <div class="header-content">
+                    <!-- Logo and Title -->
+                    <div class="logo-section">
+                        <div class="logo">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="title-section">
+                            <h1 class="main-title">জাতীয় পরিচয়পত্র অনুবিভাগ</h1>
+                            <p class="subtitle">National ID Wing</p>
+                            <p class="department">নির্বাচন কমিশন সচিবালয়</p>
+                        </div>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="search-section">
+                        <div class="search-bar">
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="অনুসন্ধান করুন...">
+                        </div>
+                        <button class="search-btn">খুঁজুন</button>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <div class="nav-container">
+                        <ul class="nav-menu">
+                            <li><a href="#" class="nav-link active">প্রধান পাতা</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link">সেবাসমূহ <i class="fas fa-chevron-down"></i></a>
+                                <div class="dropdown-menu">
+                                    <a href="#">জাতীয় পরিচয়পত্র আবেদন</a>
+                                    <a href="#">তথ্য যাচাইকরণ</a>
+                                    <a href="#">সংশোধনী আবেদন</a>
+                                </div>
+                            </li>
+                            <li><a href="#" class="nav-link">আমাদের সম্পর্কে</a></li>
+                            <li><a href="#" class="nav-link">নোটিশ</a></li>
+                            <li><a href="#" class="nav-link">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Mobile Navigation -->
+                <nav class="mobile-nav" id="mobileNav">
+                    <div class="mobile-nav-content">
+                        <a href="#" class="mobile-nav-link">প্রধান পাতা</a>
+                        <a href="#" class="mobile-nav-link">সেবাসমূহ</a>
+                        <a href="#" class="mobile-nav-link">আমাদের সম্পর্কে</a>
+                        <a href="#" class="mobile-nav-link">নোটিশ</a>
+                        <a href="#" class="mobile-nav-link">যোগাযোগ</a>
+                        <div class="mobile-search">
+                            <div class="search-bar">
+                                <i class="fas fa-search"></i>
+                                <input type="text" placeholder="অনুসন্ধান করুন...">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="hero-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        নিরাপদ ও দ্রুত সেবা
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">জাতীয় পরিচয়পত্র</span><br>
+                        <span>সেবা</span>
+                    </h1>
+                    <p class="hero-description">
+                        দ্রুত, নিরাপদ এবং সহজ উপায়ে আপনার জাতীয় পরিচয়পত্র সংক্রান্ত সকল সেবা পান। অনলাইনে আবেদন করুন, তথ্য যাচাই করুন এবং প্রয়োজনীয় সংশোধনী করুন।
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">
+                            নতুন আবেদন
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-outline">তথ্য যাচাই</button>
+                    </div>
+                    <div class="trust-indicators">
+                        <div class="indicator">
+                            <i class="fas fa-check-circle"></i>
+                            <span>১০০% নিরাপদ</span>
+                        </div>
+                        <div class="indicator">
+                            <i class="fas fa-clock"></i>
+                            <span>২৪/৭ সেবা</span>
+                        </div>
+                        <div class="indicator">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>সরকারি সেবা</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="service-cards">
+                        <div class="service-card emerald">
+                            <div class="card-icon">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <h3>নতুন আবেদন</h3>
+                            <p>জাতীয় পরিচয়পত্রের জন্য আবেদন করুন</p>
+                        </div>
+                        <div class="service-card blue">
+                            <div class="card-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>তথ্য যাচাই</h3>
+                            <p>আপনার তথ্য যাচাই করুন</p>
+                        </div>
+                        <div class="service-card orange">
+                            <div class="card-icon">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <h3>সংশোধনী</h3>
+                            <p>তথ্য সংশোধনের আবেদন</p>
+                        </div>
+                        <div class="service-card purple">
+                            <div class="card-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>সহায়তা</h3>
+                            <p>সহায়তা ও গাইডলাইন</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon emerald">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">১২ কোটি+</div>
+                    <div class="stat-label">নিবন্ধিত নাগরিক</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-number">৯৮%</div>
+                    <div class="stat-label">সফল আবেদন</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number">২৪/৭</div>
+                    <div class="stat-label">অনলাইন সেবা</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon purple">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number">৫ বছর+</div>
+                    <div class="stat-label">বিশ্বস্ত সেবা</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-sparkles"></i>
+                    আমাদের সেবাসমূহ
+                </div>
+                <h2 class="section-title">
+                    সকল সেবা <span class="gradient-text">এক জায়গায়</span>
+                </h2>
+                <p class="section-description">
+                    জাতীয় পরিচয়পত্র সংক্রান্ত সকল সেবা এক জায়গায়। দ্রুত এবং নিরাপদ উপায়ে আপনার প্রয়োজনীয় সেবা নিন।
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-item emerald">
+                    <div class="service-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>নতুন আবেদন</h3>
+                    <p>প্রথমবার জাতীয় পরিচয়পত্রের জন্য আবেদন করুন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-item blue">
+                    <div class="service-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>তথ্য সংশোধন</h3>
+                    <p>বিদ্যমান তথ্যে ভুল সংশোধনের জন্য আবেদন করুন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-item orange">
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>পুনঃনিবন্ধন</h3>
+                    <p>হারিয়ে যাওয়া বা ক্ষতিগ্রস্ত কার্ডের জন্য আবেদন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-item purple">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>তথ্য যাচাই</h3>
+                    <p>আপনার জাতীয় পরিচয়পত্রের তথ্য যাচাই করুন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-item indigo">
+                    <div class="service-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>কার্ড ডাউনলোড</h3>
+                    <p>আপনার জাতীয় পরিচয়পত্র ডাউনলোড করুন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-item teal">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>আবেদনের অবস্থা</h3>
+                    <p>আপনার আবেদনের বর্তমান অবস্থা জানুন</p>
+                    <a href="#" class="service-link">
+                        আরও জানুন <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <button class="btn btn-outline-large">
+                    সব সেবা দেখুন <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="quick-links-grid">
+                <div class="quick-links-main">
+                    <h2 class="section-title">দ্রুত লিংক</h2>
+                    <div class="links-grid">
+                        <div class="link-card">
+                            <div class="link-icon blue">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="link-content">
+                                <h3>আবেদনের ফরম</h3>
+                                <p>প্রয়োজনীয় ফরম ডাউনলোড করুন</p>
+                            </div>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-icon green">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="link-content">
+                                <h3>সাহায্য ও গাইড</h3>
+                                <p>বিস্তারিত গাইডলাইন দেখুন</p>
+                            </div>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-icon red">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="link-content">
+                                <h3>হটলাইন</h3>
+                                <p>১৬২৬৩ নম্বরে কল করুন</p>
+                            </div>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-icon purple">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="link-content">
+                                <h3>মোবাইল অ্যাপ</h3>
+                                <p>অ্যান্ড্রয়েড অ্যাপ ডাউনলোড করুন</p>
+                            </div>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="notice-sidebar">
+                    <h2 class="section-title">গুরুত্বপূর্ণ নোটিশ</h2>
+                    <div class="notice-card">
+                        <div class="notice-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="notice-content">
+                            <h3>সিস্টেম আপগ্রেড</h3>
+                            <p>আগামী ১৫ জানুয়ারি রাত ১২টা থেকে ভোর ৬টা পর্যন্ত সিস্টেম আপগ্রেডের কারণে সেবা বন্ধ থাকবে।</p>
+                            <button class="btn btn-small">বিস্তারিত</button>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <h3>যোগাযোগ</h3>
+                        <div class="contact-info">
+                            <p><strong>ঠিকানা:</strong> নির্বাচন কমিশন সচিবালয়</p>
+                            <p><strong>ফোন:</strong> ০২-৫৫০০৬৮৯১</p>
+                            <p><strong>ইমেইল:</strong> info@nidw.gov.bd</p>
+                            <p><strong>হটলাইন:</strong> ১৬২৬৩</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <div class="news-header">
+                <div class="news-header-left">
+                    <div class="section-badge blue">
+                        <i class="fas fa-trending-up"></i>
+                        সর্বশেষ আপডেট
+                    </div>
+                    <h2 class="section-title">সর্বশেষ সংবাদ</h2>
+                    <p class="section-description">জাতীয় পরিচয়পত্র সংক্রান্ত সর্বশেষ আপডেট ও সংবাদ</p>
+                </div>
+                <button class="btn btn-outline news-btn">
+                    সব সংবাদ <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-accent emerald"></div>
+                    <div class="news-header-card">
+                        <div class="news-meta">
+                            <span class="news-category">নিরাপত্তা</span>
+                            <span class="news-badge">নতুন</span>
+                        </div>
+                        <h3>জাতীয় পরিচয়পত্রে নতুন নিরাপত্তা ব্যবস্থা</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>আরও উন্নত নিরাপত্তা ব্যবস্থা সহ নতুন জাতীয় পরিচয়পত্র চালু হচ্ছে। এই নতুন ব্যবস্থায় বায়োমেট্রিক প্রযুক্তি ব্যবহার করা হবে।</p>
+                        <div class="news-footer">
+                            <div class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                ২৫ ডিসেম্বর, ২০২৪
+                            </div>
+                            <a href="#" class="news-link">
+                                পড়ুন <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-accent blue"></div>
+                    <div class="news-header-card">
+                        <div class="news-meta">
+                            <span class="news-category">প্রযুক্তি</span>
+                        </div>
+                        <h3>অনলাইন সেবায় নতুন ফিচার যুক্ত</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>আরও সহজ এবং দ্রুত সেবার জন্য নতুন ফিচার যুক্ত করা হয়েছে। এখন আরও দ্রুত আবেদন করতে পারবেন।</p>
+                        <div class="news-footer">
+                            <div class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                ২০ ডিসেম্বর, ২০২৪
+                            </div>
+                            <a href="#" class="news-link">
+                                পড়ুন <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-accent purple"></div>
+                    <div class="news-header-card">
+                        <div class="news-meta">
+                            <span class="news-category">অ্যাপ</span>
+                        </div>
+                        <h3>মোবাইল অ্যাপে নতুন আপডেট</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>জাতীয় পরিচয়পত্র মোবাইল অ্যাপে নতুন ফিচার এবং উন্নতি। এখন আরও সহজে সেবা নিতে পারবেন।</p>
+                        <div class="news-footer">
+                            <div class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                ১৮ ডিসেম্বর, ২০২৪
+                            </div>
+                            <a href="#" class="news-link">
+                                পড়ুন <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div>
+                            <h3>জাতীয় পরিচয়পত্র অনুবিভাগ</h3>
+                            <p>নির্বাচন কমিশন সচিবালয়</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের অধীনে জাতীয় পরিচয়পত্র সংক্রান্ত সকল সেবা প্রদানকারী প্রতিষ্ঠান।
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>দ্রুত লিংক</h4>
+                    <ul>
+                        <li><a href="#">নতুন আবেদন</a></li>
+                        <li><a href="#">তথ্য যাচাই</a></li>
+                        <li><a href="#">সংশোধনী আবেদন</a></li>
+                        <li><a href="#">কার্ড ডাউনলোড</a></li>
+                        <li><a href="#">আবেদনের অবস্থা</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>গুরুত্বপূর্ণ লিংক</h4>
+                    <ul>
+                        <li><a href="#">নির্বাচন কমিশন</a></li>
+                        <li><a href="#">বাংলাদেশ সরকার</a></li>
+                        <li><a href="#">জাতীয় তথ্য বাতায়ন</a></li>
+                        <li><a href="#">গোপনীয়তা নীতি</a></li>
+                        <li><a href="#">ব্যবহারের শর্তাবলী</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>যোগাযোগ</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>নির্বাচন কমিশন সচিবালয়</p>
+                            <p>আগারগাঁও, ঢাকা-১২০৭</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>০২-৫৫০০৬৮৯১</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@nidw.gov.bd</span>
+                    </div>
+                    <div class="hotline">
+                        <strong>হটলাইন: ১৬২৬৩</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 জাতীয় পরিচয়পত্র অনুবিভাগ। সকল অধিকার সংরক্ষিত। | 
+                   <a href="#">গোপনীয়তা নীতি</a> | 
+                   <a href="#">ব্যবহারের শর্তাবলী</a>
+                </p>
+                <p>Designed and Developed by <a href="https://www.linkedin.com/in/fardaus-taohyd-37926a2b3/" target="_blank">Fardaus Taohyd</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
