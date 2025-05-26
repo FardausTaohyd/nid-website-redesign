@@ -13,5 +13,5 @@ Designed and developed by **Taohyd**, a Product Designer & Frontend Developer pa
 
 ### 🌐 Live Preview
 
-[https://your-username.github.io/nid-redesign](https://your-username.github.io/nid-redesign)
+[https://fardaustaohyd.github.io/nid-website-redesign/)
 
